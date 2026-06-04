@@ -56,8 +56,8 @@ function Contact() {
           <div className="sidebar-card">
             <h3 className="sidebar-card-title">Spoken Languages</h3>
             <div className="sidebar-card-content">
-              <p>🗣️ <strong>English</strong> — Fluent</p>
-              <p style={{ marginTop: '8px' }}>🗣️ <strong>Japanese</strong> — Intermediate</p>
+              <p><strong>English</strong> — Fluent</p>
+              <p style={{ marginTop: '8px' }}><strong>Japanese</strong> — Intermediate</p>
             </div>
           </div>
         </div>
