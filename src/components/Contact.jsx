@@ -1,85 +1,66 @@
 function Contact() {
   return (
     <section className="shell section anchor-offset" id="contact">
-      <header className="section-header d-flex justify-content-between gap-6">
-        <div>
-          <div className="section-kicker">Contact</div>
-          <h2 className="section-title">Let&apos;s talk about your roadmap</h2>
-        </div>
-      </header>
-
-      <div className="contact-layout row g-9" aria-label="Contact methods">
-        <div className="contact-body col-12 col-lg-12">
-          <p>
-            Whether you need a <span className="contact-highlight">new product shipped</span>, an{' '}
-            <span className="contact-highlight">internal tool refined</span>, or{' '}
-            <span className="contact-highlight">AI woven into existing workflows</span>, I can help you
-            move from idea to reliable, maintainable software.
-          </p>
-          <p>
-            Share a short note about your team, the problem you are solving, and where you need help.
-            I usually respond within one business day.
-          </p>
-        </div>
-
-        <div className="contact-grid col-12 col-lg-12">
-          <div className="contact-card">
-            <div className="contact-label">Email</div>
-            <div className="contact-value">
-              <span className="contact-icon contact-icon-email" aria-hidden="true" />
-              <span className="sr-only">ifeoluwaoworu@gmail.com</span>
-            </div>
-            <a className="contact-link" href="mailto:ifeoluwaoworu@gmail.com">
-              <span className="contact-link-dot" />
-              <span>Send a short intro</span>
-            </a>
-          </div>
-          <div className="contact-card">
-            <div className="contact-label">LinkedIn</div>
-            <div className="contact-value">
-              <span className="contact-icon contact-icon-linkedin" aria-hidden="true" />
-              <span className="sr-only">ifeoluwa-oworu on LinkedIn</span>
-            </div>
-            <a
-              className="contact-link"
-              href="https://www.linkedin.com/in/ifeoluwa-oworu-933b7735a/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span className="contact-link-dot" />
-              <span>View profile</span>
-            </a>
-          </div>
-          <div className="contact-card">
-            <div className="contact-label">GitHub</div>
-            <div className="contact-value">
-              <span className="contact-icon contact-icon-github" aria-hidden="true" />
-              <span className="sr-only">@ifelouwa on GitHub</span>
-            </div>
-            <a
-              className="contact-link"
-              href="https://github.com/ifelouwa"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span className="contact-link-dot" />
-              <span>Browse code</span>
-            </a>
-          </div>
-          <div className="contact-card">
-            <div className="contact-label">Time zone</div>
-            <div className="contact-value">
-              <span className="contact-icon contact-icon-timezones" aria-hidden="true" />
-              <span className="sr-only">Comfortable with WAT, GMT, CET and EAT time zones</span>
-            </div>
-          </div>
-        </div>
+      <div className="section-header">
+        <h2 className="section-title">Contact</h2>
+        <div className="section-line" />
       </div>
 
-      <div className="contact-footer">
-        <span className="contact-footer-pill">Remote • Full-Stack • AI Automation</span>
-        <span className="contact-footer-divider" />
-        <span>Available for well-scoped projects and ongoing product work.</span>
+      <div className="contact-layout">
+        <div>
+          <div className="contact-text">
+            <p>
+              I am open to remote full-stack engineering roles, technical collaborations, and focused freelance projects. If you have an interesting problem to solve, let's talk.
+            </p>
+            <p>
+              Whether you need to <span className="contact-highlight">ship a new product</span>, refine an <span className="contact-highlight">existing codebase</span>, or automate internal operations, feel free to reach out. I typically respond within one business day.
+            </p>
+          </div>
+
+          <div className="contact-info-list" style={{ marginTop: '32px' }}>
+            <div className="contact-info-card">
+              <span className="contact-info-label">Email</span>
+              <span className="contact-info-value">
+                <a href="mailto:ifeoluwaoworu@gmail.com">ifeoluwaoworu@gmail.com</a>
+              </span>
+            </div>
+
+            <div className="contact-info-card">
+              <span className="contact-info-label">Phone</span>
+              <span className="contact-info-value">
+                <a href="tel:+2348077333385">+234 807 733 3385</a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div className="contact-sidebar">
+          <div className="sidebar-card">
+            <h3 className="sidebar-card-title">Professional Links</h3>
+            <div className="sidebar-card-content">
+              <p>
+                <strong>LinkedIn:</strong><br />
+                <a href="https://www.linkedin.com/in/ifeoluwa-oworu-933b7735a/" target="_blank" rel="noreferrer noopener">
+                  linkedin.com/in/ifeoluwa-oworu ↗
+                </a>
+              </p>
+              <p style={{ marginTop: '12px' }}>
+                <strong>GitHub:</strong><br />
+                <a href="https://github.com/ifelouwa" target="_blank" rel="noreferrer noopener">
+                  github.com/ifelouwa ↗
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div className="sidebar-card">
+            <h3 className="sidebar-card-title">Spoken Languages</h3>
+            <div className="sidebar-card-content">
+              <p>🗣️ <strong>English</strong> — Fluent</p>
+              <p style={{ marginTop: '8px' }}>🗣️ <strong>Japanese</strong> — Intermediate</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   )

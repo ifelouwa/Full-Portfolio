@@ -1,11 +1,9 @@
 function Footer() {
   return (
-    <footer className="footer text-center">
-      <span>© {new Date().getFullYear()} </span>
-      <span>• PRIMORDIAL CORE</span>
+    <footer className="footer">
+      <span>© {new Date().getFullYear()} Ifeoluwa Oworu</span>
     </footer>
   )
 }
 
 export default Footer
-

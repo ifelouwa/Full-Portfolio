@@ -1,39 +1,31 @@
 function NavBar({ onNavClick, onContact }) {
   return (
     <header className="nav">
-      <div className="nav-inner d-flex align-items-center justify-content-between gap-6">
-        <div className="nav-brand d-flex align-items-center gap-6">
-          <button
-            type="button"
-            className="nav-logo"
-            onClick={() => onNavClick('about')}
-            aria-label="Go to about section"
-          >
-            <div className="nav-logo-inner">
-              <span className="nav-logo-mark">IO</span>
-            </div>
-          </button>
-          <div className="nav-title d-flex flex-column gap-6">
-            <div className="nav-name">PRIMORDIAL</div>
-            <div className="nav-role">Remote Full-Stack & AI Automation</div>
+      <div className="nav-inner">
+        <div className="nav-brand">
+          <div className="nav-title">
+            <div className="nav-name">Ifeoluwa Oworu</div>
           </div>
         </div>
-        <nav className="nav-links d-none d-md-flex align-items-center gap-6" aria-label="Primary">
-          <button className="nav-link btn btn-link p-0" type="button" onClick={() => onNavClick('about')}>
+        <nav className="nav-links" aria-label="Primary">
+          <button className="nav-link" type="button" onClick={() => onNavClick('about')}>
             About
           </button>
-          <button className="nav-link btn btn-link p-0" type="button" onClick={() => onNavClick('skills')}>
-            Skills
+          <button className="nav-link" type="button" onClick={() => onNavClick('experience')}>
+            Experience
           </button>
-          <button className="nav-link btn btn-link p-0" type="button" onClick={() => onNavClick('projects')}>
+          <button className="nav-link" type="button" onClick={() => onNavClick('projects')}>
             Projects
           </button>
-          <button className="nav-link btn btn-link p-0" type="button" onClick={() => onNavClick('contact')}>
+          <button className="nav-link" type="button" onClick={() => onNavClick('skills')}>
+            Skills
+          </button>
+          <button className="nav-link" type="button" onClick={() => onNavClick('contact')}>
             Contact
           </button>
         </nav>
         <button
-          className="nav-cta d-none d-sm-inline-flex"
+          className="nav-cta"
           type="button"
           onClick={onContact}
         >
