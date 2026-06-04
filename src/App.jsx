@@ -18,8 +18,8 @@ const projects = [
     stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Prisma', 'PostgreSQL'],
     type: 'Web App',
     status: 'Live',
-    github: 'https://github.com/ifelouwa/golden_ball',
-    demo: 'https://golden-ball.vercel.app/',
+    github: 'https://github.com/ifelouwa/THE_GOLDEN_BALL',
+    demo: 'https://goldenball.up.railway.app/',
   },
   {
     name: 'Blaqline E-commerce Platform',
@@ -30,8 +30,8 @@ const projects = [
     stack: ['Next.js', 'TypeScript', 'PostgreSQL'],
     type: 'Product',
     status: 'Completed',
-    github: '',
-    demo: '',
+    github: 'https://github.com/ifelouwa/blaqline',
+    demo: 'https://blaqline.up.railway.app/',
   },
 ]
 
